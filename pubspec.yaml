@@ -1,0 +1,15 @@
+name: telugu_english_bible
+description: Full offline Telugu + English Bible reader using supplied WordProject files.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  share_plus: ^9.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
